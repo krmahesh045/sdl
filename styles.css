@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.timetable {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    flex: 1;
+    border: 1px solid #e16969;
+    padding: 10px;
+    text-align: center;
+}
